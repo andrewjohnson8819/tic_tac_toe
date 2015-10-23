@@ -1,0 +1,96 @@
+header {
+  padding-left: 75px;
+}
+
+.column {
+display: inline-block;
+}
+
+#topLeft {
+  width: 100px;
+  height: 100px;
+  border-top: hidden;
+  border-right: 5px solid;
+  border-bottom: 5px solid;
+  border-left: hidden;
+}
+
+#topCenter {
+  width: 100px;
+  height: 100px;
+  border-top: hidden;
+  border-right: hidden;
+  border-bottom: 5px solid;
+  border-left: hidden;
+  border-color: black;
+}
+
+#topRight {
+  width: 100px;
+  height: 100px;
+  border-top: hidden;
+  border-right: hidden;
+  border-bottom: 5px solid;
+  border-left: 5px solid;
+  border-color: black;
+}
+
+#middleLeft {
+  width: 100px;
+  height: 100px;
+  border-top: hidden;
+  border-right: 5px solid;
+  border-bottom: hidden;
+  border-left: hidden;
+  border-color: black;
+}
+
+#middleCenter {
+  width: 100px;
+  height: 100px;
+  border-top: hidden;
+  border-right: hidden;
+  border-bottom: hidden;
+  border-left: hidden;
+  border-color: black;
+}
+
+#middleRight {
+  width: 100px;
+  height: 100px;
+  border-top: hidden;
+  border-right: hidden;
+  border-bottom: hidden;
+  border-left: 5px solid;
+  border-color: black;
+}
+
+#bottomLeft {
+  width: 100px;
+  height: 100px;
+  border-top: 5px solid;
+  border-right: 5px solid;
+  border-bottom: hidden;
+  border-left: hidden;
+  border-color: black;
+}
+
+#bottomCenter {
+  width: 100px;
+  height: 100px;
+  border-top: 5px solid;
+  border-right: hidden;
+  border-bottom: hidden;
+  border-left: hidden;
+  border-color: black;
+}
+
+#bottomRight {
+  width: 100px;
+  height: 100px;
+  border-top: 5px solid;
+  border-right: hidden;
+  border-bottom: hidden;
+  border-left: 5px solid;
+  border-color: black;
+}
