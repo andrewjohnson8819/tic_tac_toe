@@ -3,29 +3,28 @@
   <head>
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css" />
-
   </head>
   <body>
     <header>Time to play Tic Tac Toe!</header>
     <main>
       <h1></h1>
+        <div class="column" >
+          <div class="square" id="topLeft"></div>
+          <div class="square" id="middleLeft"></div>
+          <div class="square" id="bottomLeft"></div></div>
         <div class="column">
-          <div id="topLeft"></div>
-          <div id="middleLeft"></div>
-          <div id="bottomLeft"></div></div>
+          <div class="square" id="topCenter"></div>
+          <div class="square" id="middleCenter"></div>
+          <div class="square" id="bottomCenter"></div></div>
         <div class="column">
-          <div id="topCenter"></div>
-          <div id="middleCenter"></div>
-          <div id="bottomCenter"></div></div>
-        <div class="column">
-          <div id="topRight"></div>
-          <div id="middleRight"></div>
-          <div id="bottomRight"></div></div>
-        <p></p>
-      <h2></h2>
-        <p></p>
+          <div class="square" id="topRight"></div>
+          <div class="square" id="middleRight"></div>
+          <div class="square" id="bottomRight"></div></div>
     </main>
-    <footer></footer>
+    <footer>
+      <button>Next game!</button>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
